@@ -1,5 +1,7 @@
 
-
+* {
+    box-sizing: border-box;
+}
 
 .mockup {
     /*height: 768px;*/
@@ -10,4 +12,19 @@
     background-position: center;
     margin: 0 auto;
     border-right: 1px solid red;
+}
+
+.header {
+    width: 1920px;
+    height: 120px;
+    border: 1px greenyellow solid;
+}
+
+
+.slogan-white {
+    /*font-family: ﻿AdobeInvisFont, ﻿Montserrat-Regular, ﻿Montserrat-Bold, ﻿Courier;*/
+    font-size: 15.4281pt;
+    color: rgba(255, 255, 255, 255);
+    text-align: left;
+    /*color: ;*/
 }
