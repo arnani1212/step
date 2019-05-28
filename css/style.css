@@ -6,7 +6,7 @@
 .mockup {
     /*height: 768px;*/
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     background-image: url('../image/Sections background/section-1(header).jpg');
     background-size: cover;
     background-position: center;
@@ -14,9 +14,16 @@
     border-right: 1px solid red;
 }
 
+.container {
+    width: 1160px;
+
+    margin: 0px auto;
+}
 .header {
     width: 1920px;
     height: 120px;
+    background-image: url('../image/Rectangle 4@1X.png');
+    opacity: 0.5;
     border: 1px greenyellow solid;
 }
 
